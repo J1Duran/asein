@@ -1,0 +1,26 @@
+#modal_terminos{
+	    color: #7E7E7E;
+}
+#nosotros {
+    text-align: center;
+}
+h1.dropcap {
+  font-size: 28px;
+  font-family: arial, verdana, sans-serif;
+  line-height: 28px;
+}
+h1.dropcap span {
+  font-size: 80px;
+  font-weight: lighter;
+  position: relative;
+  float: left;
+  line-height: 50px;
+    color: #3C763D;
+}
+#dropcap p {
+  font-size: 0.5em; 
+  line-height: 1.4;
+}
+body {
+  font-family: 'PT Sans Narrow', sans-serif;
+}
