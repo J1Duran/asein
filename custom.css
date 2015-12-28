@@ -15,10 +15,10 @@ h1.dropcap span {
   position: relative;
   float: left;
   line-height: 50px;
-    color: #3C763D;
+    color: #333333;
 }
 #dropcap p {
-  font-size: 0.5em; 
+  font-size: 1em; 
   line-height: 1.4;
 }
 body {
@@ -31,4 +31,40 @@ body {
     font-size: 12.5px;
         padding-right: 5px;
 
+}
+#primer_panel{
+  top: 22px;
+  width: 438px;
+    height: 310px;
+        left: 200px;
+}
+ #segundo_panel{
+  top: 22px;
+  width: 438px;
+    height: 310px;
+        left: 200px;
+
+}  
+#segundo_body{
+      padding-top: 8px;
+} 
+    padding-top: 8px;
+#navBar{
+  background-color: rgb(207, 239, 190);
+}
+#verdeAsein{
+      background-color: #008000;   
+          height: 350px;
+}
+#texto_header {
+  font-style: italic;
+ font-weight: 400;
+      color: white;
+      font-size: larger;
+}
+#barraContacto {
+  background-color: #008000;
+}
+#barraContacto ul a {
+  color: white;
 }
