@@ -74,6 +74,7 @@ h1.dropcap span {
 #barraContacto {
   background-color: #008000;
       height: 36px;
+      font-weight: bold;
 }
 #barraContacto ul a {
   color: white;
