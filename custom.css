@@ -21,8 +21,10 @@ h1.dropcap span {
   font-size: 1em; 
   line-height: 1.4;
 }
-body {
+#cuerpo {
   font-family: 'PT Sans Narrow', sans-serif;
+  background-color: #E5F5E5; 
+  font-size: large; 
 }
 #barra_nav {
     background-color: #ddd;
@@ -33,38 +35,60 @@ body {
 
 }
 #primer_panel{
-  top: 22px;
-  width: 438px;
-    height: 310px;
-        left: 200px;
+ /* top: 10px;*/
+  width: 625px;
+ /* top: 22px;
+  width: 438px;*/
+   /* height: 310px;
+        left: 200px;*/
 }
  #segundo_panel{
-  top: 22px;
-  width: 438px;
-    height: 310px;
-        left: 200px;
+  /*top: 10px;*/
+  /*top: 22px;
+  width: 438px;*/
+    /*height: 310px;
+        left: 200px;*/
 
 }  
 #segundo_body{
       padding-top: 8px;
 } 
-    padding-top: 8px;
+   
 #navBar{
   background-color: rgb(207, 239, 190);
 }
 #verdeAsein{
-      background-color: #008000;   
-          height: 350px;
+      background-color: #008000; 
+          /*height: 350px;*/
 }
 #texto_header {
-  font-style: italic;
- font-weight: 400;
+  font-family: proxima-nova-sc, "Helvetica Neue", Helvetica, Arial, sans-serif;
+      line-height: 1.3;
+    font-weight: lighter;
       color: white;
-      font-size: larger;
+      font-size: large;
+      text-align : justify;
+      letter-spacing: 0;
+/*text-shadow: -1px -1px 1px #333, 1px -1px 1px #333, -1px 1px 1px #333, 1px 1px 1px #333;*/
 }
 #barraContacto {
   background-color: #008000;
+      height: 36px;
 }
 #barraContacto ul a {
   color: white;
+}
+ul li a{
+  color: #4A4A4A;
+}
+.text-primary {
+    color: #007F00;
+}
+#primer_bloque{
+
+    margin-top: 20px;
+
+}
+#bread {
+    background-color: rgba(0, 128, 0, 0.29);
 }

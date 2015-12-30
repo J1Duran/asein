@@ -12,8 +12,10 @@
     <title>Asein</title>
 
     <!-- Bootstrap Core CSS -->
+      <link href="custom.css" rel="stylesheet">
+    <link rel="shortcut icon" src="images/favicon-cubes.ico">
     <link href="css/bootstrap.min.css" rel="stylesheet">
-     <style>
+    <style>
     #destacada {
       width: 6.2em;
       height: 46px;
@@ -25,22 +27,81 @@
       padding: 0;
       border-radius:0.5em;
     }
+    .carousel-inner > .item > img{
+       width:670px;
+       height:250px;
+     }
     </style>
-    
     <!-- Custom CSS -->
-     <link href="custom.css" rel="stylesheet">
     <link href="css/modern-business.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
-    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+   <!--  <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css"> -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link href='https://fonts.googleapis.com/css?family=PT+Sans+Narrow' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
 
 </head>
 
-<body>
-
+<div class="row">
+   <div class="col-md-12" id="barraContacto">
+    <div class="col-md-12 col-md-offset-4" >
+        <ul class="list-inline" id="listaContacto">
+          
+          <a href="https://twitter.com/info15800534?lang=es" title="Tweet us!">
+          
+              <i class="fa fa-twitter fa-2x"></i>
+           
+         Twitter &nbsp; &nbsp;  
+          </a>
+          <a title="Telefonos!">
+            <i class="fa fa-phone fa-2x"></i>
+            (52) 81 84865241/ (52) 9 841693669 &nbsp; &nbsp;   
+          </a>
+          <a href="mailto:xx@xx.com" title="Correo!">
+            <i class="fa fa-envelope-o fa-2x"></i>
+            info@asein.mx
+          </a>
+        </ul>  
+        </div>
+    </div>   
+</div>         
+<body style="padding-top: 0px;" id="cuerpo">
     <!-- Navigation -->
-   	<!-- Navigation -->
-    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="modal fade" id="ModalNosotros" role="dialog">
+                            <div class="modal-dialog"> 
+                             
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                    <h4 class="modal-title"> ­<strong>NOSOTROS</strong></h4>
+                                    </div>
+                                    <div class="modal-body">
+                                    <div class="row">             
+                                        <div class="col-md-8 col-md-offset-2"> 
+                                                 <h4><i class="fa fa-globe fa-2x"></i> Misión</h4>
+                                                <p>Promovemos y difundimos una cultura laboral de prevención en materia de salud y seguridad e higiene en el trabajo; contribuyendo a incrementar la productividad y la disminución de riesgos de trabajo, atendiendo las necesidades particulares de cada negocio y de cada empresario.</p>
+                                                <h4><i class="fa fa-paper-plane-o fa-2x"></i> Visión</h4>
+                                                <p>Ser la Empresa líder de consultores e instructores que promueven una cultura laboral basada en la prevención en materia de salud y seguridad e higiene en el trabajo.</p>
+                                             
+                                        </div>
+                                    </div>
+                                    </div>
+                                    <div class="modal-footer">
+                                      <button type="button" class="btn btn-success" data-dismiss="modal">Cerrar</button>
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+    <nav class="navbar navbar-inverse navbar-static-top" role="navigation" id="navBar" style="
+    margin-bottom: 0px;background-color: #E5F5E5;">
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
@@ -54,7 +115,7 @@
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
+                <ul class="nav navbar-nav navbar-right" id="listaMenu">
                     <li>
                         <a href="#"><i class="fa fa-users"></i> Capacitación</a>
                     </li>
@@ -67,38 +128,68 @@
                      <li>
                         <a href="contacto.html"><i class="fa fa-envelope-square"></i> Contacto</a>
                     </li>
+                    <li>
+                        <a href="#ModalNosotros" data-toggle="modal"><i class="fa fa-thumbs-up"></i> Nosotros</a>
+                        <div class="modal fade" id="ModalNosotros" role="dialog">
+                            <div class="modal-dialog"> 
+                             
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                    <h4 class="modal-title"> ­<strong>NOSOTROS</strong></h4>
+                                    </div>
+                                    <div class="modal-body">
+                                    <div class="row">             
+                                        <div class="col-md-8 col-md-offset-2"> 
+                                                 <h4><i class="fa fa-globe fa-2x"></i> Misión</h4>
+                                                <p>Promovemos y difundimos una cultura laboral de prevención en materia de salud y seguridad e higiene en el trabajo; contribuyendo a incrementar la productividad y la disminución de riesgos de trabajo, atendiendo las necesidades particulares de cada negocio y de cada empresario.</p>
+                                                <h4><i class="fa fa-paper-plane-o fa-2x"></i> Visión</h4>
+                                                <p>Ser la Empresa líder de consultores e instructores que promueven una cultura laboral basada en la prevención en materia de salud y seguridad e higiene en el trabajo.</p>
+                                             
+                                        </div>
+                                    </div>
+                                    </div>
+                                    <div class="modal-footer">
+                                      <button type="button" class="btn btn-success" data-dismiss="modal">Cerrar</button>
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
                     </li>
                 </ul>
             </div>
-        <!-- /.container -->
-    </nav>
-    <div class="col-md-12" id="barra_nav">(52) 81 84865241/ (52) 19 841693669/ info@asein.mx</div>
-    <div class="container">
-
-        <!-- Page Heading/Breadcrumbs -->
-        <div class="row">
-            <div class="col-lg-12">
-                <h1 class="page-header"><i>Contacto</i>
-                    <small><i>con nosotros</i></small>
-                </h1>
-                <ol class="breadcrumb" id="breadcrumb_id">
-                    <li><a href="index.html">Principal</a>
-                    </li>
-                    <li class="active">Contacto</li>
-                </ol>
-            </div>
+            <!-- /.navbar-collapse -->
         </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>   
         <!-- /.row -->
 
 
         <!-- Contact Form -->
         <!-- In order to set the email address and subject line for the contact form go to the bin/contact_me.php file. -->
+        <div class="container">
         
+        <!-- Page Heading/Breadcrumbs -->
+        <div class="row">
+            <div class="col-md-12">
+                <h1 class="page-header"><strong><i>Cursos</i></strong>
+                    <small><i>Dictados</i></small>
+                </h1>
+                <ol class="breadcrumb" id="bread">
+                    <li><a href="index.html">Home</a>
+                    </li>
+                    <li class="active">Cursos</li>
+                </ol>
+            </div>
+        </div>
         <div class="panel panel-success">
       <div class="panel-body">
- 
+       
         <div class="row">
-            <div class="col-md-8">
+
+            <div class="col-md-8 " >
                 <h3>Envia tu mensaje:</h3>
                 <form method="post" action="contact_me.php" id="contactForm" name="formulario">
 
