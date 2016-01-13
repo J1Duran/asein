@@ -9,6 +9,14 @@ h1.dropcap {
   font-family: arial, verdana, sans-serif;
   line-height: 28px;
 }
+#panel_texto1{
+      background-color: rgba(255, 255, 255, 0.03);
+          border-color: #3D3E3D;
+}
+#panel_texto2{
+      background-color: rgba(255, 255, 255, 0.03);
+          border-color: #3D3E3D;
+}
 h1.dropcap span {
   font-size: 80px;
   font-weight: lighter;
@@ -66,7 +74,7 @@ h1.dropcap span {
       line-height: 1.2;
     font-weight: lighter;
       color: white;
-      font-size: 20px;
+      font-size: 23px;
       text-align : justify;
       letter-spacing: 0;
 /*text-shadow: -1px -1px 1px #333, 1px -1px 1px #333, -1px 1px 1px #333, 1px 1px 1px #333;*/
